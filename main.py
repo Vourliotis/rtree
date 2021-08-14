@@ -9,9 +9,9 @@ def main():
 
     # VISUALIZATION SETTINGS
     # PLOT THE DATA IN A SEPERATE WINDOW
-    plotData = False
+    plotData = True
     # PRINT THE DATA IN THE CONSOLE
-    printInConsole = False
+    printInConsole = True
 
     # ENTRIES = POINTS FROM CSV FILE
     data_set = 'data'
