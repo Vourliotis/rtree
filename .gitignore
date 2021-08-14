@@ -2,3 +2,8 @@
 .vscode
 __pycache__
 todo.txt
+/data-sets/data.1kk.csv
+/data-sets/data.5kk.csv
+/data-sets/data.10kk.csv
+/data-sets/data.20kk.csv
+/tests/
