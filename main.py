@@ -9,12 +9,12 @@ def main():
 
     # VISUALIZATION SETTINGS
     # PLOT THE DATA IN A SEPERATE WINDOW
-    plotData = True
+    plotData = False
     # PRINT THE DATA IN THE CONSOLE
-    printInConsole = True
+    printInConsole = False
 
     # ENTRIES = POINTS FROM CSV FILE
-    data_set = 'data'
+    data_set = 'data100k'
     entries, time_elapsed_tree = rtree.import_csv(data_set)
     # ENTRIES = POINTS RANDOMLY CREATED WITH A SEED
     #entries, time_elapsed_tree = rtree.create_random_points(5, r_seed)
@@ -44,7 +44,7 @@ def main():
         rtree.show_skyline(skyline)
 
     # RANGE QUERY IN R-TREE
-    range_rec = Rectangle(Point(40, 40), Point(60, 60))
+    range_rec = Rectangle(Point(400, 400), Point(600, 600))
     query_entries, time_elapsed_query_entries = rtree.range_query(range_rec)
 
     # PRINT RANGE QUERY ENTRIES IN CONSOLE
