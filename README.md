@@ -8,7 +8,7 @@
 
 ## Configurations
 
-You can configure some aspects of the program. Inside main.py there are 3 variables that can be changed.
+You can configure some aspects of the program. Inside `main.py` there are 3 variables that can be changed.
 
 - plotData: If set to `True`, every step of the program is plotted on your screen. Default is `False`.
 - printInConsole: If set to `True`, the R-Tree gets printed in the terminal. Default is `False`.
